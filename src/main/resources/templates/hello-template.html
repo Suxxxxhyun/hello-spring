@@ -1,0 +1,5 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<body>
+<!-- hello! empty부분은 서버 없이 동작하는 부분이고, 서버를 가동한다면, text="값" << 이 값으로 대체된다.-->
+<p th:text="'hello ' + ${name}">hello! empty</p>
+</body>
